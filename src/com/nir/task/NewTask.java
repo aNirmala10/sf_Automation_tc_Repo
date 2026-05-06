@@ -15,6 +15,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class NewTask {
 
 	public static void main(String[] args) throws InterruptedException {
+		
+		System.out.println("imported from local folder");
 
 		ChromeOptions options = new ChromeOptions();
 		WebDriver driver = new ChromeDriver(options);
